@@ -53,13 +53,14 @@ const IndexPage = () => {
         }
         .menu-container {
           display: flex;
-          flex-direction: row;
-          justify-content: space-around;
+          flex-wrap: wrap;
+          justify-content: center;
           width: 60%;
           margin-top: 2rem;
         }
         .menu-item {
           text-align: center;
+          width: 33%;
         }
         .section-title {
           font-size: 1.8rem;
@@ -93,6 +94,16 @@ const IndexPage = () => {
           width: 48px;
           height: 48px;
           margin-left: 0.5rem;
+        }
+
+        /* Medya sorgusu */
+        @media (max-width: 768px) {
+          .menu-container {
+            width: 80%;
+          }
+          .menu-item {
+            width: 100%;
+          }
         }
       `}</style>
     </div>
