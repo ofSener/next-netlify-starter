@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 
 const LearningPath = () => {
   const [topics, setTopics] = useState([
-    { name: 'HTML', learned: true, level: 'Beginner' },
-    { name: 'CSS', learned: false, level: 'Intermediate' },
-    { name: 'JavaScript', learned: false, level: 'Intermediate' },
-    { name: 'React', learned: false, level: 'Advanced' },
-    { name: 'Bash Commands', learned: true, level: 'Beginner' },
+    { name: 'C', learned: true, level: 'Advanced' },
+    { name: 'C++', learned: true, level: 'Advanced' },
+    { name: 'Java', learned: true, level: 'Beginner' },
+    { name: 'Networking', learned: true, level: 'Beginner' },
+    { name: 'Bash Scripts', learned: true, level: 'Beginner' },
+    { name: 'Bash Commands', learned: true, level: 'Intermediate' },
     { name: 'Linux Commands', learned: true, level: 'Intermediate' },
   ]);
 
@@ -40,7 +41,7 @@ const LearningPath = () => {
                   className={`status ${topic.learned ? 'learned' : 'not-learned'}`}
                   onClick={() => handleLearnedToggle(index)}
                 >
-                  {topic.learned ? 'Learned' : 'Not Learned'}
+                  {topic.learned ? 'Learned' : 'Not Learned yet'}
                 </div>
               </td>
               <td className={`level ${topic.level.toLowerCase()}`}>
