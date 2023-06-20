@@ -9,7 +9,9 @@ const LearningPath = () => {
     { name: 'Bash Scripts', learned: true, level: 'Beginner' },
     { name: 'Bash Commands', learned: true, level: 'Intermediate' },
     { name: 'Linux Commands', learned: true, level: 'Intermediate' },
-  ]);
+    { name: 'Git', learned: true, level: 'Beginner' },
+    { name: 'Python', learned: true, level: 'Beginner' },
+]);
 
   const handleLearnedToggle = (index) => {
     setTopics((prevTopics) => {
