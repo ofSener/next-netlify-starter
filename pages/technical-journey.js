@@ -7,7 +7,7 @@ import TechnicalJourney from '../components/TechnicalJourney';
 const TechnicalJourneyPage = () => {
   return (
     <div className="page-container">
-      <h1>Technical Journey</h1>
+      <h1>Technical Logs</h1>
       
       <div className="content-container">
         <TechnicalJourney />
