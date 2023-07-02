@@ -29,24 +29,26 @@ const WhoAmI = () => {
           </p>
         </div>
         <div className="section-item">
-          <h3>My Strengths</h3>
-          <ul>
-            <li>Competitive</li>
-            <li>Pressure-free</li>
-            <li>Easily adapting teamwork</li>
-            <li>Good planner</li>
-            <li>Leading spirit</li>
-            <li>Creativeness</li>
-            <li>Presentation to large groups</li>
-          </ul>
-        </div>
-        <div className="section-item">
-          <h3>Which I Can Improve</h3>
-          <ul>
-            <li>Taking too many risks</li>
-            <li>Taking too much responsibility</li>
-            <li>Being too detail-oriented</li>
-          </ul>
+          <div>
+            <h3>My Strengths</h3>
+            <ul>
+              <li>Competitive</li>
+              <li>Pressure-free</li>
+              <li>Easily adapting teamwork</li>
+              <li>Good planner</li>
+              <li>Leading spirit</li>
+              <li>Creativeness</li>
+              <li>Presentation to large groups</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Which I Can Improve</h3>
+            <ul>
+              <li>Taking too many risks</li>
+              <li>Taking too much responsibility</li>
+              <li>Being too detail-oriented</li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -56,11 +58,14 @@ const WhoAmI = () => {
         }
         .section {
           display: flex;
+          flex-wrap: wrap;
           justify-content: space-between;
         }
         .section-item {
           flex: 1;
           margin: 0 10px;
+          display: flex;
+          justify-content: space-between;
         }
         ul {
           list-style-type: disc;
