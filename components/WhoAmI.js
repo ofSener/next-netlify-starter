@@ -69,7 +69,7 @@ const WhoAmI = () => {
           display: flex;
           flex-direction: column;
           align-items: center;
-          text-align: center;
+          text-align: justify;
           padding: 0 15%;
         }
       `}</style>
