@@ -57,6 +57,7 @@ const WhoAmI = () => {
           flex-direction: column;
           align-items: center;
           text-align: center;
+          padding: 0 30%;
         }
         .main-section {
           margin-bottom: 40px;
