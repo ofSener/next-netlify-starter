@@ -70,7 +70,7 @@ const WhoAmI = () => {
           flex-direction: column;
           align-items: center;
           text-align: center;
-          padding: 0 20px;
+          padding: 0 15%;
         }
       `}</style>
     </div>
