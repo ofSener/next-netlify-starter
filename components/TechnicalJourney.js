@@ -15,7 +15,34 @@ const TechnicalJourney = () => {
       `,
     },
     { date: '2023-06-20', content: 'I bought ofsener.com and ower.com.tr domains and host them using Netlify.' },
-    // Diğer günlük girişler...
+    { date: '2023-06-23',
+      content:`
+      <p>I watched a video about bash scripts today, here's the link: https://www.youtube.com/watch?v=7qd5sqazD7k.</p>
+      <p>After watching the video,</p>
+      <p>I examined some bash script examples and wrote around 10 scripts myself.</p>
+      <p>Here's another video link: https://www.youtube.com/watch?v=q2z-MRoNbgM&t=2334s.</p>
+      <p>I tried out different variations of the examples from this video as well.</p> 
+      `,
+    },
+    { date : '2023-06-25',
+      content:`
+      <p>Continued scripting in bash and wrote about 20-30 more scripts.</p> 
+      <p>I wanted to upload them to my GitHub but couldn't figure it out :) </p> 
+      <p>After scripting even more, I decided to upload them all together.</p> `,},
+    { date : '2023-06-27',
+      content:`
+      <p>I watched some videos about uploading to GitHub, but still couldn't manage it.</p>
+      <p>So, I decided to learn it properly after finishing all the scripts and put it on hold for now.</p>
+      `,},
+    { date : '2023-06-29',
+      content:`
+      <p>I did some more scripting in bash.</p>
+      <p>I realized that I'm falling behind according to the learning plan on learntocloud.guide.</p>
+      <p>So I decided to speed up a bit.</p> `,},
+    { date : '2023-06-30',
+      content :`<p> Today is my birthday, and I spent all my time enjoying a wonderful time with my fiancé.</p>
+      <p>I also decided to convert my journal into a weekly format.</p>        
+ `,}, 
   ]);
 
   const [activeEntry, setActiveEntry] = useState(null);
